@@ -31,17 +31,43 @@ header{
 .navbar .top{
    width: 100%;
    height: 100px;
-   background-color: white;
+   background-color: #fac0ae;
    border-radius: 100px;
    padding-right: 50px;
+}
+
+.navbar .top ul :hover{
+   color: #ed1c24;
 }
 .navbar .top ul{
    list-style: none;
    float: right;
+   font-weight: bold;
 }
 .navbar .top li{
    /* float: right; */
    display: inline-block;
    margin: 25px 15px;
 
+}
+.container {
+   height: 600px;
+   padding: 200px 200px;
+   background-color: rgb(255, 255, 255);
+   
+}
+.Traditional{
+   color: rgb(0, 0, 0);
+}
+.Traditional .row-one{
+   font-size:50px;
+  margin-left: 90px;
+}
+.Traditional .row-tow{
+   display: flex;
+   justify-content: space-between;
+}
+.Services{
+   background-color: #fac0ae;
+   height: 500px;
 }
