@@ -1,3 +1,11 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+
 body{
   
     box-sizing: border-box;
@@ -5,22 +13,46 @@ body{
 header{
    height: 640px;
    box-sizing: border-box;
-    background-image:url(images/Background.jpg);
+    /* background-image:url(images/Background.jpg); */
     background-repeat: no-repeat;
+    /* opacity: 70%; */
     background-size:cover;
     /* object-fit:cover; */
     /* padding-top: 35px; */
-
-
+     position: relative;
 }
+header ::before{
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   background-image: url(images/Background.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 640px;
+   width: 100%;
+   opacity:0.1;
+   z-index: -1;
+   
+}
+header p{
+   font-size: 100px;
+   color: #fffefe;
+   margin: 150px;
+   font-weight:bolder;
+   border-top:6px solid #ffffff;
+   border-bottom:6px solid #fac0ae;
+   /* position: absolute; */
+   
+}
+
 .navbar{
     height: 200px;
-    /* background-color:#fac0ae; */
     border-radius: 100px;
     display: flex;
     align-items: center;
     position: relative;
-    /* padding: 0% px; */
+    
  }
  .navbar img{
     position: absolute;
@@ -58,14 +90,37 @@ header{
 }
 .Traditional{
    color: rgb(0, 0, 0);
+   background-color: #fac0ae;
 }
 .Traditional .row-one{
    font-size:50px;
-  margin-left: 90px;
+  margin-left: 130px;
+  padding-top: 30px;
 }
 .Traditional .row-tow{
    display: flex;
    justify-content: space-between;
+   height: 510px;
+}
+.row-tow h3{
+   margin-top: 140px;
+   margin-left: 15px;
+}
+.aboutus p{
+   width:250px;
+   padding-left: 15PX;
+   line-height: 1.5;
+
+}
+.row-tow img{
+   width: 300px;
+   height: 400px;
+   margin-top: 110px;
+}
+.ourfeatures ul{
+   line-height: 2.5;
+   padding-right: 15px;
+   
 }
 .Services{
    background-color: #fac0ae;
