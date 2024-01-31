@@ -14,12 +14,7 @@ body {
 header {
    height: 640px;
    box-sizing: border-box;
-   /* background-image:url(images/Background.jpg); */
-   background-repeat: no-repeat;
-   /* opacity: 70%; */
    background-size: cover;
-   /* object-fit:cover; */
-   /* padding-top: 35px; */
    position: relative;
 }
 
@@ -55,15 +50,13 @@ header p {
    display: flex;
    align-items: center;
    position: relative;
-
 }
 
 .navbar img {
    position: absolute;
    height: 180px;
    margin-left: 25px;
-
-}
+} 
 
 .navbar .top {
    width: 100%;
@@ -87,14 +80,12 @@ header p {
 .navbar .top li {
    display: inline-block;
    margin: 35px 15px;
-
 }
 
 .container {
    height: auto;
-   padding: 200px;
+   padding: 100px 200px;
    background-color: rgb(255, 255, 255);
-
 }
 
 .Title-paraghraph {
@@ -201,7 +192,7 @@ header p {
 
 }
 .someimages{
-   /* margin-top: 60px; */
+   margin: 55px 0px;
 }
 
 .someimages img{
@@ -209,8 +200,34 @@ header p {
    height: 200px;
 }
 .row-three p{
-   color: blue;
+   background-color: #ed1c24;
+   padding: 10px;
+   font-weight: bold;
+   border-radius: 100%;
 }
+.prices div {
+   background-color: #ffffff;
+   height: 400px;
+   width: 250px;
+   padding: 0 45px;
+   
+   
+}
+.prices{
+   display: flex;
+   justify-content: space-evenly;
+}
+.prices img {
+   height: 150px;
+   width: 150px;
+   border:#fac0ae 10px solid;
+   border-radius: 100%;
+}
+.prices p{
+   font-size: 20px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: bolder;
+   padding: 35px 0px;}
 
 @keyframes changecolor {
    0% {
