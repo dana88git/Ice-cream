@@ -194,7 +194,7 @@ header p {
 .someimages{
    margin: 55px 0px;
 }
-
+ 
 .someimages img{
    width: 280px;
    height: 200px;
@@ -217,17 +217,19 @@ header p {
    display: flex;
    justify-content: space-evenly;
 }
+
 .prices img {
    height: 150px;
    width: 150px;
    border:#fac0ae 10px solid;
    border-radius: 100%;
 }
+
 .prices p{
    font-size: 20px;
    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    font-weight: bolder;
-   padding: 35px 0px;}
+   padding: 55px 0px;}
 
 @keyframes changecolor {
    0% {
