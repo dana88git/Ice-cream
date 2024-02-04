@@ -30,7 +30,6 @@ header ::before {
    width: 100%;
    opacity: 0.1;
    z-index: -1;
-
 }
 
 header p {
@@ -56,7 +55,7 @@ header p {
    position: absolute;
    height: 180px;
    margin-left: 25px;
-} 
+}
 
 .navbar .top {
    width: 100%;
@@ -126,6 +125,7 @@ header p {
    animation-iteration-count: infinite;
    animation-duration: 1s;
    animation-direction: reverse;
+   border: solid;
 
 }
 
@@ -143,15 +143,17 @@ header p {
 .ourfeatures .button {
    border-radius: 50px;
    border-color: #ed1c24;
+    border-bottom: none;
+   border-right: none; 
+   box-shadow: none; 
    background-color: #fac0ae;
-   border-bottom: none;
-   border-right: none;
+     border:  solid; 
    padding: 10px;
    animation: changecolor;
    animation-iteration-count: infinite;
    animation-duration: 1s;
    animation-direction: reverse;
-   margin-top: 50px;
+   margin-top: 50px; 
 
 }
 
@@ -191,25 +193,28 @@ header p {
 
 
 }
-.someimages{
+
+.someimages {
    margin: 55px 0px;
 }
- 
-.someimages img{
+
+.someimages img {
    width: 280px;
    height: 200px;
 }
-.row-three p{
+
+.row-three p {
    background-color: #ed1c24;
    padding: 10px;
    font-weight: bold;
    border-radius: 100%;
 }
 
-.prices{
+.prices {
    display: flex;
    justify-content: space-evenly;
 }
+
 .prices .dd {
    background-color: #ffffff;
    height: 400px;
@@ -217,34 +222,57 @@ header p {
    padding: 35px 35px;
    margin-top: 57px;
 
-   
+
 }
 
 .prices img {
    height: 150px;
    width: 150px;
-   border:#fac0ae 10px solid;
+   border: #fac0ae 10px solid;
    border-radius: 100%;
 }
 
 
-.prices h6{
+.prices h6 {
    font-size: 20px;
-   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    font-weight: bolder;
-   padding: 45px 0px;}
-   .prices div :hover{
-     opacity: 0.9;
-     z-index: -1;
-   }
-   .prices .order{
-      margin-left: 28px;
-      padding: 15px;
-      background-color: rgb(0, 150, 209);
-      border: none;
-      font-weight:bold;
-      font-size: 15px;
-   }
+   padding: 45px 0px;
+}
+
+.prices div :hover {
+   opacity: 0.9;
+   z-index: -1;
+}
+
+.prices .order {
+   margin-left: 28px;
+   padding: 15px;
+   background-color: rgb(0, 150, 209);
+   border: none;
+   font-weight: bold;
+   font-size: 15px;
+}
+
+footer {
+   height: 175px;
+   box-sizing: border-box;
+   background-size: cover;
+   position: relative;
+   background-color: #e7ad9a;
+   padding: 40px 250px;
+}
+
+footer p {
+   font-size: 50px;
+   margin: 0px 20% 3% 23%
+}
+
+footer .icons {
+   margin: 0px 40%;
+   font-size: 35px;
+}
+
 
 @keyframes changecolor {
    0% {
@@ -254,6 +282,4 @@ header p {
    100% {
       border-color: white;
    }
-
-  
-   }
+}
